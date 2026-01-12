@@ -103,7 +103,7 @@ export default function About({ onNavigate }: AboutProps) {
 
   return (
     <div className="min-h-screen">
-      <section className="relative min-h-[70vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[60vh] md:min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="/Weg.png"
@@ -111,10 +111,10 @@ export default function About({ onNavigate }: AboutProps) {
             className="w-full h-full object-cover"
             loading="eager"
           />
-          <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-transparent"></div>
         </div>
 
-        <div className="container-custom relative z-10 py-24 md:py-32">
+        <div className="container-custom relative z-10 pt-32 pb-12 md:pt-40 md:pb-16">
           <div className="text-center max-w-5xl mx-auto space-y-6 md:space-y-8">
             <div className="inline-flex items-center space-x-3 bg-white/95 backdrop-blur-sm text-[#006039] px-4 md:px-6 py-2 md:py-3 rounded-full text-sm md:text-base font-medium mb-4 md:mb-6 shadow-lg">
               <GraduationCap className="w-4 h-4 md:w-5 h-5" />
@@ -143,7 +143,7 @@ export default function About({ onNavigate }: AboutProps) {
         </div>
       </section>
 
-      <section className="section-padding bg-white">
+      <section className="pt-12 pb-16 md:pt-20 md:pb-24 bg-white">
         <div className="container-custom">
           <div className="max-w-5xl mx-auto space-y-16">
             <div className="space-y-12">
