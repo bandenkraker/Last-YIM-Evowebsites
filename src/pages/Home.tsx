@@ -52,7 +52,7 @@ export default function Home({ onNavigate }: HomeProps) {
 
   return (
     <div className="min-h-screen">
-      <section className="relative min-h-[90vh] flex items-center bg-white pt-32 lg:pt-24">
+      <section className="relative min-h-[90vh] flex items-center bg-white pt-36 md:pt-44 lg:pt-48">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="space-y-6 md:space-y-8 order-1 lg:order-1">

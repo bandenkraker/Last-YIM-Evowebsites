@@ -114,7 +114,7 @@ export default function About({ onNavigate }: AboutProps) {
           <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
         </div>
 
-        <div className="container-custom relative z-10 py-24 md:py-32">
+        <div className="container-custom relative z-10 pt-36 pb-12 md:pt-44 md:pb-16">
           <div className="text-center max-w-5xl mx-auto space-y-6 md:space-y-8">
             <div className="inline-flex items-center space-x-3 bg-white/95 backdrop-blur-sm text-[#006039] px-4 md:px-6 py-2 md:py-3 rounded-full text-sm md:text-base font-medium mb-4 md:mb-6 shadow-lg">
               <GraduationCap className="w-4 h-4 md:w-5 h-5" />

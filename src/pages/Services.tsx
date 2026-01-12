@@ -99,7 +99,7 @@ export default function Services({ onNavigate }: ServicesProps) {
 
   return (
     <div className="min-h-screen">
-      <section className="relative pt-32 pb-16 md:pb-20 bg-white overflow-hidden">
+      <section className="relative pt-36 pb-16 md:pt-44 md:pb-20 bg-white overflow-hidden">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="space-y-6 md:space-y-8">

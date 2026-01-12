@@ -2,8 +2,8 @@ import { Shield, Lock, Eye, Mail } from 'lucide-react';
 
 export default function Privacy() {
   return (
-    <div className="min-h-screen pt-20">
-      <section className="pt-20 pb-16 bg-white">
+    <div className="min-h-screen pt-36 md:pt-44">
+      <section className="pb-16 bg-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto mb-12">
             <div className="space-y-6">

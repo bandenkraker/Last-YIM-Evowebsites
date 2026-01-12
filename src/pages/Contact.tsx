@@ -39,7 +39,7 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen">
-      <section className="pt-32 pb-12 md:pb-16 bg-white">
+      <section className="pt-36 pb-12 md:pt-44 md:pb-16 bg-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             <div>
