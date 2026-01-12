@@ -72,7 +72,7 @@ export default function Home({ onNavigate }: HomeProps) {
                     onClick={() => onNavigate('contact')}
                     className="btn-primary px-10"
                   >
-                    Neem Contact Op
+                    Neem contact op
                   </button>
                   <button
                     onClick={() => onNavigate('services')}
@@ -92,7 +92,7 @@ export default function Home({ onNavigate }: HomeProps) {
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-medium text-[#272727]">
-                    <AnimatedCounter end={50} suffix="+" />
+                    <AnimatedCounter end={20} suffix="+" />
                   </div>
                   <div className="text-sm text-gray-500 mt-1">Projecten</div>
                 </div>
