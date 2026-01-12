@@ -62,7 +62,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             <img
               src="/yimtrans.png"
               alt="YIM Logo - Yvel Interim Management"
-              className="h-32 md:h-48 lg:h-56 w-auto object-contain group-hover:opacity-90 transition-opacity"
+              className="h-40 md:h-48 lg:h-56 w-auto object-contain group-hover:opacity-90 transition-opacity"
             />
           </button>
 
