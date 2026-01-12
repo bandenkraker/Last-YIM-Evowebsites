@@ -167,8 +167,8 @@ export default function Services({ onNavigate }: ServicesProps) {
         <div className="container-custom">
           <div className="text-center mb-20 max-w-4xl mx-auto">
             <h2 className="heading-secondary mb-8 text-[#272727]">
-              Onze werkwijze
-            </h2>
+              Onze  <span className="text-yim-green">werkwijze</span>
+              </h2> 
             <p className="text-2xl text-gray-600 font-medium">
               Een gestructureerde aanpak voor duurzame resultaten.
             </p>
