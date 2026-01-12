@@ -39,7 +39,7 @@ export default function Privacy() {
                 <div className="flex items-start space-x-4 mb-4">
                   <Lock className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h2 className="text-2xl font-semibold text-gray-900 mb-3">Gegevensbescherming</h2>
+                    <h2 className="heading-secondary text-gray-900 mb-3">Gegevensbescherming</h2>
                     <p className="text-gray-600 leading-relaxed mb-4">
                       Yvel Interim Management (YIM) hecht grote waarde aan de bescherming van uw persoonsgegevens.
                       In dit privacybeleid leggen wij uit hoe wij omgaan met uw gegevens wanneer u gebruik maakt
@@ -54,7 +54,7 @@ export default function Privacy() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Welke Gegevens Verzamelen Wij?</h2>
+                <h2 className="heading-secondary text-gray-900 mb-4">Welke Gegevens Verzamelen Wij?</h2>
                 <div className="space-y-4 text-gray-600">
                   <div className="pl-4 border-l-4 border-green-200">
                     <h3 className="font-semibold text-gray-900 mb-2">Contactgegevens</h3>
@@ -81,7 +81,7 @@ export default function Privacy() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Waarvoor Gebruiken Wij Uw Gegevens?</h2>
+                <h2 className="heading-secondary text-gray-900 mb-4">Waarvoor Gebruiken Wij Uw Gegevens?</h2>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start space-x-3">
                     <span className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></span>
@@ -106,7 +106,7 @@ export default function Privacy() {
                 <div className="flex items-start space-x-4 mb-4">
                   <Eye className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h2 className="text-2xl font-semibold text-gray-900 mb-3">Delen van Gegevens</h2>
+                    <h2 className="heading-secondary text-gray-900 mb-3">Delen van Gegevens</h2>
                     <p className="text-gray-600 leading-relaxed">
                       Wij verkopen uw persoonsgegevens nooit aan derden. Wij kunnen uw gegevens alleen delen met:
                     </p>
@@ -125,7 +125,7 @@ export default function Privacy() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Uw Rechten</h2>
+                <h2 className="heading-secondary text-gray-900 mb-4">Uw Rechten</h2>
                 <p className="text-gray-600 mb-4 leading-relaxed">
                   U heeft de volgende rechten met betrekking tot uw persoonsgegevens:
                 </p>
@@ -158,7 +158,7 @@ export default function Privacy() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Beveiliging</h2>
+                <h2 className="heading-secondary text-gray-900 mb-4">Beveiliging</h2>
                 <p className="text-gray-600 leading-relaxed">
                   Wij nemen passende technische en organisatorische maatregelen om uw persoonsgegevens te
                   beschermen tegen ongeautoriseerde toegang, verlies of wijziging. Onze website gebruikt
@@ -167,7 +167,7 @@ export default function Privacy() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Cookies</h2>
+                <h2 className="heading-secondary text-gray-900 mb-4">Cookies</h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
                   Onze website gebruikt cookies om de functionaliteit te verbeteren en om statistieken bij te houden.
                   We gebruiken de volgende soorten cookies:
@@ -189,7 +189,7 @@ export default function Privacy() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Bewaartermijn</h2>
+                <h2 className="heading-secondary text-gray-900 mb-4">Bewaartermijn</h2>
                 <p className="text-gray-600 leading-relaxed">
                   Wij bewaren uw persoonsgegevens niet langer dan noodzakelijk voor de doeleinden waarvoor ze zijn
                   verzameld. Contactgegevens worden bewaard zolang er een zakelijke relatie bestaat of tot u verzoekt
@@ -201,7 +201,7 @@ export default function Privacy() {
                 <div className="flex items-start space-x-4">
                   <Mail className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h2 className="text-2xl font-semibold text-gray-900 mb-3">Contact</h2>
+                    <h2 className="heading-secondary text-gray-900 mb-3">Contact</h2>
                     <p className="text-gray-600 leading-relaxed mb-4">
                       Heeft u vragen over dit privacybeleid of wilt u gebruik maken van uw rechten?
                       Neem dan contact met ons op:
@@ -216,7 +216,7 @@ export default function Privacy() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Wijzigingen</h2>
+                <h2 className="heading-secondary text-gray-900 mb-4">Wijzigingen</h2>
                 <p className="text-gray-600 leading-relaxed">
                   Wij behouden ons het recht voor om dit privacybeleid te wijzigen. De meest recente versie
                   is altijd te vinden op deze pagina. Wij raden u aan om dit privacybeleid regelmatig te raadplegen.

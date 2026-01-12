@@ -43,7 +43,7 @@ export default function Contact() {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             <div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[#272727] mb-6 leading-tight px-2 sm:px-0">
+              <h1 className="heading-primary text-[#272727] mb-6 leading-tight px-2 sm:px-0">
                 Interesse in een samenwerking? Neem contact met ons op.
               </h1>
               <p className="text-gray-600 text-lg mb-8 px-2 sm:px-0">
@@ -72,15 +72,15 @@ export default function Contact() {
                   href="https://www.linkedin.com/in/calvin-yvel-a418b630/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group relative flex items-center space-x-4 p-6 bg-white rounded-2xl border-2 border-gray-200 hover:border-yim-green hover:bg-gradient-to-br hover:from-emerald-50 hover:to-green-50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-yim-green/20"
+                  className="group relative flex items-center space-x-4 p-6 bg-white rounded-2xl border-2 border-gray-200 hover:border-yim-gold hover:bg-gradient-to-br hover:from-amber-50 hover:to-orange-50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-yim-gold/20"
                 >
-                  <div className="relative w-14 h-14 bg-gradient-to-br from-yim-green to-[#007A4A] rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-yim-green/50">
+                  <div className="relative w-14 h-14 bg-gradient-to-br from-yim-gold to-[#C49A3C] rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-yim-gold/50">
                     <Linkedin className="w-7 h-7 text-white group-hover:scale-110 transition-transform duration-300" />
-                    <div className="absolute inset-0 rounded-xl bg-yim-green opacity-0 group-hover:opacity-20 group-hover:animate-ping"></div>
+                    <div className="absolute inset-0 rounded-xl bg-yim-gold opacity-0 group-hover:opacity-20 group-hover:animate-ping"></div>
                   </div>
                   <div>
-                    <div className="text-sm text-gray-500 font-medium group-hover:text-yim-green transition-colors duration-300">Connect op</div>
-                    <div className="text-lg font-medium text-[#272727] group-hover:text-yim-green transition-colors duration-300">LinkedIn</div>
+                    <div className="text-sm text-gray-500 font-medium group-hover:text-yim-gold transition-colors duration-300">Connect op</div>
+                    <div className="text-lg font-medium text-[#272727] group-hover:text-yim-gold transition-colors duration-300">LinkedIn</div>
                   </div>
                 </a>
               </div>
@@ -88,7 +88,7 @@ export default function Contact() {
               <div className="mb-8 px-2 sm:px-0">
                 <div className="flex items-center space-x-3 mb-4">
                   <Mail className="w-6 h-6 text-yim-gold" />
-                  <h2 className="text-2xl font-medium text-[#272727]">Of stuur een bericht</h2>
+                  <h2 className="heading-tertiary text-[#272727]">Of stuur een bericht</h2>
                 </div>
               </div>
 

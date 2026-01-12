@@ -56,7 +56,7 @@ export default function Home({ onNavigate }: HomeProps) {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="space-y-6 md:space-y-8 order-1 lg:order-1">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[#272727] leading-tight">
+              <h1 className="heading-primary text-[#272727]">
                 Strategische partner op het gebied van{' '}
                 <span className="text-yim-green">Finance</span>
               </h1>

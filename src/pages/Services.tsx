@@ -103,17 +103,17 @@ export default function Services({ onNavigate }: ServicesProps) {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="space-y-6 md:space-y-8">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[#272727]">
+              <h1 className="heading-primary text-[#272727]">
                 Finance <span className="text-yim-green">Diensten</span>
               </h1>
-              <p className="text-xl md:text-2xl text-gray-600 leading-relaxed font-medium">
+              <p className="text-lg md:text-2xl text-gray-600 leading-relaxed font-medium">
                 Expertise op interim-basis voor uw financiële uitdagingen. Van operationele control tot strategische financiële beslissingen: wij helpen uw organisatie vooruit te gaan.
               </p>
             </div>
             <div className="relative mt-8 lg:mt-0">
               <div className="absolute -inset-4 bg-beige-200 rounded-3xl -z-10 hidden sm:block"></div>
               <img
-                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2000&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Finance Dashboard Analysis"
                 className="rounded-2xl shadow-2xl w-full h-[300px] md:h-[500px] object-cover"
                 loading="eager"
@@ -167,10 +167,10 @@ export default function Services({ onNavigate }: ServicesProps) {
         <div className="container-custom">
           <div className="text-center mb-20 max-w-4xl mx-auto">
             <h2 className="heading-secondary mb-8 text-[#272727]">
-              ‘Een gesprek kan het verschil maken’
+              ‘Onze werkwijze’
             </h2>
             <p className="text-2xl text-gray-600 font-medium">
-              Neem vandaag nog vrijblijvend contact met ons op en ontdek hoe wij uw organisatie kunnen helpen.
+              Een gestructureerde aanpak voor duurzame resultaten.
             </p>
           </div>
 
@@ -207,7 +207,7 @@ export default function Services({ onNavigate }: ServicesProps) {
             </div>
 
             <div className="space-y-8 md:space-y-10 order-1 lg:order-2">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-[#272727]">
+              <h2 className="heading-secondary text-[#272727]">
                 Resultaten die <span className="text-yim-green">tellen</span>
               </h2>
 
