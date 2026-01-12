@@ -194,7 +194,7 @@ export default function Contact() {
                 <img
                   src="/Cantact.png"
                   alt="Contact Calvin Yvel"
-                  className="w-full h-auto md:h-[650px] object-cover object-center rounded-2xl shadow-xl"
+                  className="w-full h-auto md:h-[650px] object-cover object-[center_20%] rounded-2xl shadow-xl"
                   loading="eager"
                 />
               </div>
