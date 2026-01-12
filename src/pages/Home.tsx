@@ -58,8 +58,8 @@ export default function Home({ onNavigate }: HomeProps) {
             <div className="space-y-8 md:space-y-10 order-1 lg:order-1">
               <div className="space-y-4">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium text-[#272727] leading-tight max-w-xl">
-                  Partner op het gebied van{' '}
-                  <span className="text-yim-green">Finance Management</span>
+                  Strategische partner op het gebied van{' '}
+                  <span className="text-yim-green">Finance</span>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-500 font-medium leading-relaxed">
                   De kracht achter de groei van jouw organisatie
