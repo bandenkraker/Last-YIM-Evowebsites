@@ -69,7 +69,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/calvin-yvel-a418b630/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative flex items-center space-x-4 p-6 bg-white rounded-2xl border-2 border-gray-200 hover:border-yim-green hover:bg-gradient-to-br hover:from-emerald-50 hover:to-green-50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-yim-green/20"

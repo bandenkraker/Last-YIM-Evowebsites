@@ -24,7 +24,7 @@ export default function Footer({ currentPage, onNavigate }: FooterProps) {
               Een gesprek kan het verschil maken.
             </h3>
             <p className="text-white/90 text-lg max-w-2xl mx-auto">
-              Neem vandaag nog contact op en ontdek hoe wij uw organisatie kunnen helpen groeien
+              Neem vandaag nog contact op en ontdek hoe wij uw organisatie kunnen helpen.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ export default function Footer({ currentPage, onNavigate }: FooterProps) {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/calvin-yvel-a418b630/"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative bg-white p-6 rounded-2xl border-2 border-gray-200 hover:border-white hover:shadow-2xl hover:shadow-white/20 transition-all duration-300 hover:-translate-y-2"
@@ -140,7 +140,7 @@ export default function Footer({ currentPage, onNavigate }: FooterProps) {
               </li>
               <li>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/calvin-yvel-a418b630/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center space-x-2 text-gray-400 hover:text-yim-gold transition-all duration-300 text-sm hover:translate-x-1"
