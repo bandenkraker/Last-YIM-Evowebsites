@@ -53,7 +53,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
       } ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
     >
       <nav className="container-custom">
-        <div className="flex items-center justify-between h-24 md:h-32">
+        <div className="flex items-center justify-between h-28 md:h-32">
           <button
             onClick={() => handleNavClick('home')}
             className="flex items-center group -ml-2 md:-ml-4"
@@ -62,7 +62,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             <img
               src="/yimtrans.png"
               alt="YIM Logo - Yvel Interim Management"
-              className="h-24 md:h-48 lg:h-56 w-auto object-contain group-hover:opacity-90 transition-opacity"
+              className="h-32 md:h-48 lg:h-56 w-auto object-contain group-hover:opacity-90 transition-opacity"
             />
           </button>
 
