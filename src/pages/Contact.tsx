@@ -43,7 +43,7 @@ export default function Contact() {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             <div>
-              <h1 className="heading-primary text-[#272727] mb-6 leading-tight px-2 sm:px-0">
+              <h1 className="heading-secondary text-[#272727] mb-6 leading-tight px-2 sm:px-0">
                 Interesse in een samenwerking? Neem contact met ons op.
               </h1>
               <p className="text-gray-600 text-lg mb-8 px-2 sm:px-0">
