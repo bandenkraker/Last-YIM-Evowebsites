@@ -114,18 +114,18 @@ export default function About({ onNavigate }: AboutProps) {
           <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
         </div>
 
-        <div className="container-custom relative z-10 py-32">
-          <div className="text-center max-w-5xl mx-auto space-y-8">
-            <div className="inline-flex items-center space-x-3 bg-white/95 backdrop-blur-sm text-[#006039] px-6 py-3 rounded-full text-base font-medium mb-6 shadow-lg">
-              <GraduationCap className="w-5 h-5" />
+        <div className="container-custom relative z-10 py-24 md:py-32">
+          <div className="text-center max-w-5xl mx-auto space-y-6 md:space-y-8">
+            <div className="inline-flex items-center space-x-3 bg-white/95 backdrop-blur-sm text-[#006039] px-4 md:px-6 py-2 md:py-3 rounded-full text-sm md:text-base font-medium mb-4 md:mb-6 shadow-lg">
+              <GraduationCap className="w-4 h-4 md:w-5 h-5" />
               <span>Master in Controlling</span>
             </div>
 
-            <h1 className="heading-primary text-white drop-shadow-lg">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white drop-shadow-lg px-2">
               Over Calvin Yvel
             </h1>
 
-            <p className="text-3xl text-white/95 font-medium drop-shadow-md">
+            <p className="text-xl md:text-2xl lg:text-3xl text-white/95 font-medium drop-shadow-md px-4">
               Interim Financial Expert
             </p>
 
@@ -163,18 +163,18 @@ export default function About({ onNavigate }: AboutProps) {
                   }}
                 ></div>
 
-                <div className="space-y-12 md:space-y-16">
+                <div className="space-y-10 md:space-y-16">
                   {timeline.map((item, index) => (
                     <div
                       key={index}
                       ref={(el) => (timelineRefs.current[index] = el)}
-                      className={`relative flex flex-col md:flex-row gap-8 ${
+                      className={`relative flex flex-col md:flex-row gap-6 md:gap-8 ${
                         index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
                       }`}
                     >
                       <div className={`flex-1 ${index % 2 === 0 ? 'md:text-right md:pr-12' : 'md:text-left md:pl-12'}`}>
-                        <div className={`inline-block ${index % 2 === 0 ? 'md:float-right' : 'md:float-left'}`}>
-                          <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 max-w-md">
+                        <div className={`inline-block w-full ${index % 2 === 0 ? 'md:float-right' : 'md:float-left'}`}>
+                          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 w-full md:max-w-md ml-auto mr-auto md:ml-0 md:mr-0">
                             <div className="flex items-center gap-4 mb-4">
                               <div className={`w-14 h-14 ${index % 2 === 0 ? 'bg-gradient-to-br from-yim-gold to-[#C49A3C]' : 'bg-[#006039]'} rounded-xl flex items-center justify-center flex-shrink-0`}>
                                 <item.icon className="w-7 h-7 text-white" />
@@ -217,7 +217,7 @@ export default function About({ onNavigate }: AboutProps) {
               </div>
             </div>
 
-            <div className="relative max-w-lg mx-auto">
+            <div className="relative max-w-lg mx-auto px-4 sm:px-0 mt-12">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   src="/calvinyvelcar.png"
@@ -226,12 +226,12 @@ export default function About({ onNavigate }: AboutProps) {
                   loading="lazy"
                 />
               </div>
-              <div className="absolute -bottom-8 -right-8 bg-white p-8 rounded-2xl shadow-xl max-w-xs border border-gray-200">
-                <div className="flex items-center space-x-4">
-                  <Award className="w-10 h-10 text-yim-gold" />
+              <div className="absolute -bottom-6 -right-2 sm:-bottom-8 sm:-right-8 bg-white p-4 sm:p-8 rounded-2xl shadow-xl max-w-[200px] sm:max-w-xs border border-gray-200">
+                <div className="flex items-center space-x-3 sm:space-x-4">
+                  <Award className="w-6 h-6 sm:w-10 sm:h-10 text-yim-gold" />
                   <div>
-                    <div className="font-medium text-[#272727] text-xl">14+ Jaar</div>
-                    <div className="text-base text-gray-600">Finance expertise</div>
+                    <div className="font-medium text-[#272727] text-base sm:text-xl">14+ Jaar</div>
+                    <div className="text-xs sm:text-base text-gray-600">Finance expertise</div>
                   </div>
                 </div>
               </div>
@@ -251,14 +251,14 @@ export default function About({ onNavigate }: AboutProps) {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
             {values.map((value, index) => (
-              <div key={index} className="bg-white rounded-2xl p-12 text-center shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
-                <div className="w-20 h-20 bg-[#006039] rounded-xl flex items-center justify-center mx-auto mb-8">
-                  <value.icon className="w-10 h-10 text-white" />
+              <div key={index} className="bg-white rounded-2xl p-8 md:p-12 text-center shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+                <div className="w-16 h-16 md:w-20 md:h-20 bg-[#006039] rounded-xl flex items-center justify-center mx-auto mb-6 md:mb-8">
+                  <value.icon className="w-8 h-8 md:w-10 md:h-10 text-white" />
                 </div>
-                <h3 className="text-3xl font-medium text-[#272727] mb-5">{value.title}</h3>
-                <p className="text-gray-600 leading-relaxed text-lg">{value.description}</p>
+                <h3 className="text-2xl md:text-3xl font-medium text-[#272727] mb-4 md:mb-5">{value.title}</h3>
+                <p className="text-gray-600 leading-relaxed text-base md:text-lg">{value.description}</p>
               </div>
             ))}
           </div>
@@ -267,16 +267,16 @@ export default function About({ onNavigate }: AboutProps) {
 
       <section className="section-padding bg-white">
         <div className="container-custom">
-          <div className="bg-[#006039] rounded-3xl p-16 md:p-20 text-white max-w-6xl mx-auto shadow-2xl">
-            <h2 className="text-4xl md:text-5xl font-medium mb-12 text-center">
+          <div className="bg-[#006039] rounded-3xl p-8 md:p-16 lg:p-20 text-white max-w-6xl mx-auto shadow-2xl">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-8 md:mb-12 text-center">
               Expertise
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               {expertise.map((item, index) => (
-                <div key={index} className="flex items-center space-x-4 bg-white/10 rounded-xl p-6">
-                  <div className="w-3 h-3 bg-gradient-to-br from-yim-gold to-[#C49A3C] rounded-full flex-shrink-0"></div>
-                  <span className="text-xl">{item}</span>
+                <div key={index} className="flex items-center space-x-3 md:space-x-4 bg-white/10 rounded-xl p-4 md:p-6">
+                  <div className="w-2 h-2 md:w-3 md:h-3 bg-gradient-to-br from-yim-gold to-[#C49A3C] rounded-full flex-shrink-0"></div>
+                  <span className="text-lg md:text-xl">{item}</span>
                 </div>
               ))}
             </div>

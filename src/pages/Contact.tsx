@@ -39,18 +39,18 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen">
-      <section className="pt-32 pb-16 bg-white">
+      <section className="pt-32 pb-12 md:pb-16 bg-white">
         <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             <div>
-              <h1 className="text-5xl lg:text-6xl font-medium text-[#272727] mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[#272727] mb-6 leading-tight px-2 sm:px-0">
                 Interesse in een samenwerking? Neem contact met ons op.
               </h1>
-              <p className="text-gray-600 text-lg mb-8">
+              <p className="text-gray-600 text-lg mb-8 px-2 sm:px-0">
                 Kies je favoriete manier om contact op te nemen
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12 px-2 sm:px-0">
                 <a
                   href="tel:+31638927076"
                   className="group relative flex items-center space-x-4 p-6 bg-white rounded-2xl border-2 border-gray-200 hover:border-yim-gold hover:bg-gradient-to-br hover:from-amber-50 hover:to-orange-50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-yim-gold/20"
@@ -85,7 +85,7 @@ export default function Contact() {
                 </a>
               </div>
 
-              <div className="mb-8">
+              <div className="mb-8 px-2 sm:px-0">
                 <div className="flex items-center space-x-3 mb-4">
                   <Mail className="w-6 h-6 text-yim-gold" />
                   <h2 className="text-2xl font-medium text-[#272727]">Of stuur een bericht</h2>
@@ -93,18 +93,18 @@ export default function Contact() {
               </div>
 
               {submitSuccess ? (
-                <div className="text-center py-12">
-                  <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <CheckCircle className="w-10 h-10 text-green-600" />
+                <div className="text-center py-12 px-4">
+                  <div className="w-16 h-16 md:w-20 md:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <CheckCircle className="w-8 h-8 md:w-10 md:h-10 text-green-600" />
                   </div>
-                  <h3 className="text-2xl font-bold text-[#272727] mb-2">Bericht Verzonden!</h3>
+                  <h3 className="text-xl md:text-2xl font-bold text-[#272727] mb-2">Bericht Verzonden!</h3>
                   <p className="text-gray-600">
                     Bedankt voor uw bericht. Wij nemen zo spoedig mogelijk contact met u op.
                   </p>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-8">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                <form onSubmit={handleSubmit} className="space-y-6 md:space-y-8 px-2 sm:px-0">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
                     <div>
                       <input
                         type="text"
@@ -188,13 +188,13 @@ export default function Contact() {
               )}
             </div>
 
-            <div className="relative order-2 lg:order-2">
+            <div className="relative order-2 lg:order-2 mt-12 lg:mt-0 px-2 sm:px-0">
               <div className="relative">
-                <div className="absolute -inset-4 bg-beige-200 rounded-3xl -z-10"></div>
+                <div className="absolute -inset-4 bg-beige-200 rounded-3xl -z-10 hidden sm:block"></div>
                 <img
                   src="/Cantact.png"
                   alt="Contact Calvin Yvel"
-                  className="w-full h-[500px] object-cover object-top rounded-2xl shadow-xl"
+                  className="w-full h-auto max-h-[400px] md:max-h-[500px] object-cover object-top rounded-2xl shadow-xl"
                   loading="eager"
                 />
               </div>

@@ -52,11 +52,11 @@ export default function Home({ onNavigate }: HomeProps) {
 
   return (
     <div className="min-h-screen">
-      <section className="relative min-h-[90vh] flex items-center bg-white pt-24">
+      <section className="relative min-h-[90vh] flex items-center bg-white pt-32 lg:pt-24">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div className="space-y-8 order-1 lg:order-1">
-              <h1 className="heading-primary text-[#272727]">
+            <div className="space-y-6 md:space-y-8 order-1 lg:order-1">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[#272727] leading-tight">
                 Strategische partner op het gebied van{' '}
                 <span className="text-yim-green">Finance</span>
               </h1>
@@ -104,17 +104,17 @@ export default function Home({ onNavigate }: HomeProps) {
               </div>
             </div>
 
-            <div className="relative order-2 lg:order-2">
-              <div className="relative">
-                <div className="absolute -inset-4 bg-beige-200 rounded-3xl -z-10"></div>
+            <div className="relative order-2 lg:order-2 mt-8 lg:mt-0">
+              <div className="relative px-4 sm:px-0">
+                <div className="absolute -inset-4 bg-beige-200 rounded-3xl -z-10 hidden sm:block"></div>
                 <img
                   src="/calvin.png"
                   alt="Calvin Yvel - Interim Finance Manager"
-                  className="w-full h-[400px] lg:h-[500px] object-contain object-top rounded-2xl"
+                  className="w-full h-auto max-h-[400px] lg:max-h-[500px] object-contain object-top rounded-2xl"
                   loading="eager"
                 />
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-xl border border-gray-100">
+              <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 sm:left-0 sm:translate-x-0 bg-white p-4 sm:p-5 rounded-2xl shadow-xl border border-gray-100 whitespace-nowrap">
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 bg-yim-green rounded-xl flex items-center justify-center">
                     <Award className="w-6 h-6 text-white" />
@@ -167,11 +167,11 @@ export default function Home({ onNavigate }: HomeProps) {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {qualities.map((quality, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-8 border border-gray-200 hover:border-yim-green hover:shadow-xl transition-all duration-300"
+                className="bg-white rounded-xl p-6 md:p-8 border border-gray-200 hover:border-yim-green hover:shadow-xl transition-all duration-300"
               >
                 <div className="w-16 h-16 bg-yim-green rounded-xl flex items-center justify-center mb-6">
                   <quality.icon className="w-8 h-8 text-white" />

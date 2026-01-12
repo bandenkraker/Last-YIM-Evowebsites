@@ -49,20 +49,20 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'
+        isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-white/95 backdrop-blur-sm'
       } ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
     >
       <nav className="container-custom">
-        <div className="flex items-center justify-between h-28">
+        <div className="flex items-center justify-between h-20 md:h-28">
           <button
             onClick={() => handleNavClick('home')}
-            className="flex items-center group -ml-4"
+            className="flex items-center group -ml-2 md:-ml-4"
             aria-label="Ga naar homepage"
           >
             <img
               src="/yimtrans.png"
               alt="YIM Logo - Yvel Interim Management"
-              className="h-32 md:h-40 lg:h-48 w-auto object-contain group-hover:opacity-90 transition-opacity"
+              className="h-20 md:h-40 lg:h-48 w-auto object-contain group-hover:opacity-90 transition-opacity"
             />
           </button>
 
