@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&family=Work+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,7 +12,7 @@
   }
 
   body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Urbanist', sans-serif;
     color: #272727;
     line-height: 1.6;
     overflow-x: hidden;
@@ -33,15 +33,15 @@
 
 @layer components {
   .heading-primary {
-    @apply text-4xl md:text-5xl lg:text-7xl font-medium leading-tight;
-  }
-
-  .heading-secondary {
     @apply text-3xl md:text-4xl lg:text-5xl font-medium leading-tight;
   }
 
+  .heading-secondary {
+    @apply text-2xl md:text-3xl lg:text-4xl font-medium leading-tight;
+  }
+
   .heading-tertiary {
-    @apply text-2xl md:text-3xl font-medium;
+    @apply text-xl md:text-2xl font-medium;
   }
 
   .btn-primary {

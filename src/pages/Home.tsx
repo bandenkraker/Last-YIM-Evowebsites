@@ -52,76 +52,79 @@ export default function Home({ onNavigate }: HomeProps) {
 
   return (
     <div className="min-h-screen">
-      <section className="relative min-h-[90vh] flex items-center bg-white pt-36 md:pt-44 lg:pt-48">
-        <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div className="space-y-6 md:space-y-8 order-1 lg:order-1">
-              <h1 className="heading-primary text-[#272727]">
-                Strategische partner op het gebied van{' '}
-                <span className="text-yim-green">Finance</span>
-              </h1>
-
-              <p className="text-lg md:text-xl text-gray-600 font-medium leading-relaxed">
-                Samen werken aan de groei van jouw organisatie
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <button
-                  onClick={() => onNavigate('contact')}
-                  className="btn-primary"
-                >
-                  Neem contact op
-                </button>
-                <button
-                  onClick={() => onNavigate('services')}
-                  className="btn-secondary"
-                >
-                  Bekijk diensten
-                </button>
+      <section className="relative min-h-screen flex items-center bg-white pt-20">
+        <div className="container-custom py-20 lg:py-32">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+            <div className="space-y-8 md:space-y-10 order-1 lg:order-1">
+              <div className="space-y-4">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium text-[#272727] leading-tight max-w-xl">
+                  Partner op het gebied van{' '}
+                  <span className="text-yim-green">Finance Management</span>
+                </h1>
+                <p className="text-lg md:text-xl text-gray-500 font-medium leading-relaxed">
+                  De kracht achter de groei van jouw organisatie
+                </p>
               </div>
 
-              <div className="flex flex-wrap items-center gap-8 pt-8">
-                <div className="text-center">
-                  <div className="text-2xl font-medium text-yim-green">
+              <div className="flex flex-col sm:row gap-4 pt-4">
+                <div className="flex flex-wrap gap-4">
+                  <button
+                    onClick={() => onNavigate('contact')}
+                    className="btn-primary px-10"
+                  >
+                    Neem Contact Op
+                  </button>
+                  <button
+                    onClick={() => onNavigate('services')}
+                    className="btn-secondary px-10"
+                  >
+                    Bekijk Diensten
+                  </button>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap items-center gap-12 pt-12 border-t border-gray-100">
+                <div className="text-left">
+                  <div className="text-2xl font-medium text-[#272727]">
                     <AnimatedCounter end={14} suffix="+" />
                   </div>
-                  <div className="text-sm text-gray-600 mt-2 font-medium">Jaar Ervaring</div>
+                  <div className="text-sm text-gray-500 mt-1">Jaar Ervaring</div>
                 </div>
-                <div className="h-12 w-px bg-gray-300"></div>
                 <div className="text-center">
-                  <div className="text-2xl font-medium text-yim-green">
-                    <AnimatedCounter end={20} suffix="+" />
+                  <div className="text-2xl font-medium text-[#272727]">
+                    <AnimatedCounter end={50} suffix="+" />
                   </div>
-                  <div className="text-sm text-gray-600 mt-2 font-medium">Projecten</div>
+                  <div className="text-sm text-gray-500 mt-1">Projecten</div>
                 </div>
-                <div className="h-12 w-px bg-gray-300"></div>
                 <div className="text-center">
-                  <div className="text-2xl font-medium text-yim-green">
+                  <div className="text-2xl font-medium text-[#272727]">
                     <AnimatedCounter end={100} suffix="%" />
                   </div>
-                  <div className="text-sm text-gray-600 mt-2 font-medium">Inzet</div>
+                  <div className="text-sm text-gray-500 mt-1">Inzet</div>
                 </div>
               </div>
             </div>
 
-            <div className="relative order-2 lg:order-2 mt-8 lg:mt-0">
-              <div className="relative px-4 sm:px-0">
-                <div className="absolute -inset-4 bg-beige-200 rounded-3xl -z-10 hidden sm:block"></div>
-                <img
-                  src="/calvin.png"
-                  alt="Calvin Yvel - Interim Finance Manager"
-                  className="w-full h-auto max-h-[400px] lg:max-h-[500px] object-contain object-top rounded-2xl"
-                  loading="eager"
-                />
-              </div>
-              <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 sm:left-0 sm:translate-x-0 bg-white p-4 sm:p-5 rounded-2xl shadow-xl border border-gray-100 whitespace-nowrap">
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-yim-green rounded-xl flex items-center justify-center">
-                    <Award className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <div className="font-medium text-[#272727] text-lg">14+ Jaar</div>
-                    <div className="text-sm text-gray-600">Finance Expertise</div>
+            <div className="relative order-2 lg:order-2">
+              <div className="relative">
+                <div className="aspect-[4/3] lg:aspect-square rounded-3xl overflow-hidden shadow-2xl shadow-gray-200/50">
+                  <img
+                    src="/calvin.png"
+                    alt="Calvin Yvel - Interim Finance Manager"
+                    className="w-full h-full object-cover object-top"
+                    loading="eager"
+                  />
+                </div>
+                
+                <div className="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-xl border border-gray-50 hidden sm:block">
+                  <div className="flex items-center space-x-4">
+                    <div className="w-12 h-12 bg-[#006039]/10 rounded-xl flex items-center justify-center">
+                      <Award className="w-6 h-6 text-yim-green" />
+                    </div>
+                    <div>
+                      <div className="font-medium text-[#272727] text-lg">14+ Jaar</div>
+                      <div className="text-sm text-gray-500">Finance Expertise</div>
+                    </div>
                   </div>
                 </div>
               </div>
