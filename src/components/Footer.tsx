@@ -70,7 +70,7 @@ export default function Footer({ currentPage, onNavigate }: FooterProps) {
           <div className="col-span-1">
             <h4 className="text-lg font-semibold mb-4 text-beige-200">Over YIM</h4>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Ambitieuze finance expertise voor bedrijfsgroei en optimale resultaten. 14+ jaar ervaring in business control en financial management.
+              Ambiteuze finance expert met focus op inzicht en resultaat. 14+ jaar ervaring in business control, financial control en financial management.
             </p>
           </div>
 

@@ -62,7 +62,7 @@ export default function Home({ onNavigate }: HomeProps) {
                   <span className="text-yim-green">Finance</span>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-500 font-medium leading-relaxed">
-                  De kracht achter de groei van jouw organisatie
+                  Samen werken aan de groei van jouw organisatie.
                 </p>
               </div>
 

@@ -126,7 +126,7 @@ export default function About({ onNavigate }: AboutProps) {
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl text-white/95 font-medium drop-shadow-md px-4">
-              Interim Financial Expert
+              Interim Finance Expert
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-6 pt-4">

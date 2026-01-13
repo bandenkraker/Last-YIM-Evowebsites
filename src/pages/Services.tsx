@@ -199,7 +199,7 @@ export default function Services({ onNavigate }: ServicesProps) {
             <div className="relative order-2 lg:order-1 mt-12 lg:mt-0">
               <div className="absolute -inset-4 bg-white rounded-3xl -z-10 hidden sm:block"></div>
               <img
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop"
+                src="https://images.pexels.com/photos/7054515/pexels-photo-7054515.jpeg"
                 alt="Business charts en financiële analyses op schermen"
                 className="rounded-2xl shadow-2xl w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
